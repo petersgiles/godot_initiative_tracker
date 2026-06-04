@@ -4,7 +4,7 @@ extends Resource
 @export var name: String
 @export var display: String
 @export var hp: float
-@export var ac: float 
+@export var ac: float
 @export var stats: Array[float]
 @export var source: Array[String]
 @export var cr: float
@@ -20,5 +20,5 @@ extends Resource
 @export var friendly: bool
 @export var active: bool
 @export var is_static: bool
-@export var rollHP: bool
+@export var roll_hp: bool
 @export var statblock_link: String
